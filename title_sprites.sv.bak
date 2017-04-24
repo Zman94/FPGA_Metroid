@@ -1,0 +1,24 @@
+module game_over(
+
+
+);
+
+
+endmodule
+
+module title(
+
+
+);
+
+
+endmodule
+
+
+module victory(
+
+
+);
+
+endmodule
+

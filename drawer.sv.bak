@@ -1,0 +1,15 @@
+module drawer(	/*** Basically a more powerful color mapper ***/
+					logic input vgaX, vgaY,
+					logic output red, green, blue
+  				 );
+/*** This modules purpose is to iterate over the buffer in memory and determine the correct color for that pixel ***/
+
+parameter [23:0] bufferStart = 0;
+parameter [23:0] bufferEnd = 0;
+
+/*** Local signals ***/
+logic [19:0] address;
+enum logic [2:0] {}
+
+
+endmodule

@@ -1,0 +1,465 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\Github\ECE_385\Final_Lab\nios_system.qsys --block-symbol-file --output-directory=E:\Github\ECE_385\Final_Lab\nios_system --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading Final_Lab/nios_system.qsys
+Progress: Reading input file
+Progress: Adding b_emp [altera_avalon_pio 15.0]
+Progress: Parameterizing module b_emp
+Progress: Adding bullet1_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet1_en
+Progress: Adding bullet1_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet1_x
+Progress: Adding bullet1_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet1_y
+Progress: Adding bullet2_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet2_en
+Progress: Adding bullet2_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet2_x
+Progress: Adding bullet2_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet2_y
+Progress: Adding bullet3_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet3_en
+Progress: Adding bullet3_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet3_x
+Progress: Adding bullet3_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet3_y
+Progress: Adding clk_0 [clock_source 15.0]
+Progress: Parameterizing module clk_0
+Progress: Adding explosion1_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion1_en
+Progress: Adding explosion1_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion1_x
+Progress: Adding explosion1_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion1_y
+Progress: Adding explosion2_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion2_en
+Progress: Adding explosion2_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion2_x
+Progress: Adding explosion2_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion2_y
+Progress: Adding explosion3_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion3_en
+Progress: Adding explosion3_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion3_x
+Progress: Adding explosion3_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion3_y
+Progress: Adding health [altera_avalon_pio 15.0]
+Progress: Parameterizing module health
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 15.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding key [altera_avalon_pio 15.0]
+Progress: Parameterizing module key
+Progress: Adding keycode [altera_avalon_pio 15.0]
+Progress: Parameterizing module keycode
+Progress: Adding kraid_as_dir [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_as_dir
+Progress: Adding kraid_dir [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_dir
+Progress: Adding kraid_g_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_g_en
+Progress: Adding kraid_n_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_n_en
+Progress: Adding kraid_r_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_r_en
+Progress: Adding kraid_shoot_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_shoot_en
+Progress: Adding kraid_spike_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_spike_x
+Progress: Adding kraid_spike_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_spike_y
+Progress: Adding kraid_throw_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_throw_en
+Progress: Adding kraid_throw_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_throw_x
+Progress: Adding kraid_throw_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_throw_y
+Progress: Adding kraid_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_x
+Progress: Adding kraid_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_y
+Progress: Adding loss_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module loss_en
+Progress: Adding monster1_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster1_en
+Progress: Adding monster1_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster1_x
+Progress: Adding monster1_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster1_y
+Progress: Adding monster2_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster2_en
+Progress: Adding monster2_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster2_x
+Progress: Adding monster2_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster2_y
+Progress: Adding monster3_dir [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster3_dir
+Progress: Adding monster3_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster3_en
+Progress: Adding monster3_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster3_x
+Progress: Adding monster3_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster3_y
+Progress: Adding nios2_qsys_0 [altera_nios2_gen2 15.0]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 15.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding otg_hpi_address [altera_avalon_pio 15.0]
+Progress: Parameterizing module otg_hpi_address
+Progress: Adding otg_hpi_cs [altera_avalon_pio 15.0]
+Progress: Parameterizing module otg_hpi_cs
+Progress: Adding otg_hpi_data [altera_avalon_pio 15.0]
+Progress: Parameterizing module otg_hpi_data
+Progress: Adding otg_hpi_r [altera_avalon_pio 15.0]
+Progress: Parameterizing module otg_hpi_r
+Progress: Adding otg_hpi_w [altera_avalon_pio 15.0]
+Progress: Parameterizing module otg_hpi_w
+Progress: Adding samus_dir [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_dir
+Progress: Adding samus_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_en
+Progress: Adding samus_jump [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_jump
+Progress: Adding samus_up [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_up
+Progress: Adding samus_walk [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_walk
+Progress: Adding samus_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_x
+Progress: Adding samus_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_y
+Progress: Adding scene_sel [altera_avalon_pio 15.0]
+Progress: Parameterizing module scene_sel
+Progress: Adding sdram [altera_avalon_new_sdram_controller 15.0]
+Progress: Parameterizing module sdram
+Progress: Adding sdram_pll [altpll 15.0]
+Progress: Parameterizing module sdram_pll
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 15.0]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Adding title_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module title_en
+Progress: Adding win_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module win_en
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios_system.otg_hpi_data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios_system.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Warning: nios_system.sdram_pll: sdram_pll.areset_conduit must be exported, or connected to a matching conduit.
+Warning: nios_system.sdram_pll: sdram_pll.locked_conduit must be exported, or connected to a matching conduit.
+Warning: nios_system.sdram_pll: sdram_pll.phasedone_conduit must be exported, or connected to a matching conduit.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\Github\ECE_385\Final_Lab\nios_system.qsys --synthesis=VERILOG --output-directory=E:\Github\ECE_385\Final_Lab\nios_system\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading Final_Lab/nios_system.qsys
+Progress: Reading input file
+Progress: Adding b_emp [altera_avalon_pio 15.0]
+Progress: Parameterizing module b_emp
+Progress: Adding bullet1_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet1_en
+Progress: Adding bullet1_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet1_x
+Progress: Adding bullet1_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet1_y
+Progress: Adding bullet2_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet2_en
+Progress: Adding bullet2_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet2_x
+Progress: Adding bullet2_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet2_y
+Progress: Adding bullet3_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet3_en
+Progress: Adding bullet3_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet3_x
+Progress: Adding bullet3_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module bullet3_y
+Progress: Adding clk_0 [clock_source 15.0]
+Progress: Parameterizing module clk_0
+Progress: Adding explosion1_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion1_en
+Progress: Adding explosion1_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion1_x
+Progress: Adding explosion1_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion1_y
+Progress: Adding explosion2_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion2_en
+Progress: Adding explosion2_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion2_x
+Progress: Adding explosion2_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion2_y
+Progress: Adding explosion3_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion3_en
+Progress: Adding explosion3_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion3_x
+Progress: Adding explosion3_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module explosion3_y
+Progress: Adding health [altera_avalon_pio 15.0]
+Progress: Parameterizing module health
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 15.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding key [altera_avalon_pio 15.0]
+Progress: Parameterizing module key
+Progress: Adding keycode [altera_avalon_pio 15.0]
+Progress: Parameterizing module keycode
+Progress: Adding kraid_as_dir [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_as_dir
+Progress: Adding kraid_dir [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_dir
+Progress: Adding kraid_g_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_g_en
+Progress: Adding kraid_n_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_n_en
+Progress: Adding kraid_r_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_r_en
+Progress: Adding kraid_shoot_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_shoot_en
+Progress: Adding kraid_spike_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_spike_x
+Progress: Adding kraid_spike_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_spike_y
+Progress: Adding kraid_throw_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_throw_en
+Progress: Adding kraid_throw_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_throw_x
+Progress: Adding kraid_throw_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_throw_y
+Progress: Adding kraid_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_x
+Progress: Adding kraid_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module kraid_y
+Progress: Adding loss_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module loss_en
+Progress: Adding monster1_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster1_en
+Progress: Adding monster1_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster1_x
+Progress: Adding monster1_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster1_y
+Progress: Adding monster2_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster2_en
+Progress: Adding monster2_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster2_x
+Progress: Adding monster2_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster2_y
+Progress: Adding monster3_dir [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster3_dir
+Progress: Adding monster3_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster3_en
+Progress: Adding monster3_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster3_x
+Progress: Adding monster3_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module monster3_y
+Progress: Adding nios2_qsys_0 [altera_nios2_gen2 15.0]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 15.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding otg_hpi_address [altera_avalon_pio 15.0]
+Progress: Parameterizing module otg_hpi_address
+Progress: Adding otg_hpi_cs [altera_avalon_pio 15.0]
+Progress: Parameterizing module otg_hpi_cs
+Progress: Adding otg_hpi_data [altera_avalon_pio 15.0]
+Progress: Parameterizing module otg_hpi_data
+Progress: Adding otg_hpi_r [altera_avalon_pio 15.0]
+Progress: Parameterizing module otg_hpi_r
+Progress: Adding otg_hpi_w [altera_avalon_pio 15.0]
+Progress: Parameterizing module otg_hpi_w
+Progress: Adding samus_dir [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_dir
+Progress: Adding samus_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_en
+Progress: Adding samus_jump [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_jump
+Progress: Adding samus_up [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_up
+Progress: Adding samus_walk [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_walk
+Progress: Adding samus_x [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_x
+Progress: Adding samus_y [altera_avalon_pio 15.0]
+Progress: Parameterizing module samus_y
+Progress: Adding scene_sel [altera_avalon_pio 15.0]
+Progress: Parameterizing module scene_sel
+Progress: Adding sdram [altera_avalon_new_sdram_controller 15.0]
+Progress: Parameterizing module sdram
+Progress: Adding sdram_pll [altpll 15.0]
+Progress: Parameterizing module sdram_pll
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 15.0]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Adding title_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module title_en
+Progress: Adding win_en [altera_avalon_pio 15.0]
+Progress: Parameterizing module win_en
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios_system.otg_hpi_data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios_system.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Warning: nios_system.sdram_pll: sdram_pll.areset_conduit must be exported, or connected to a matching conduit.
+Warning: nios_system.sdram_pll: sdram_pll.locked_conduit must be exported, or connected to a matching conduit.
+Warning: nios_system.sdram_pll: sdram_pll.phasedone_conduit must be exported, or connected to a matching conduit.
+Info: nios_system: Generating nios_system "nios_system" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src12 and cmd_mux_012.sink0
+Info: Inserting clock-crossing logic between cmd_demux_001.src4 and cmd_mux_012.sink1
+Info: Inserting clock-crossing logic between rsp_demux_012.src0 and rsp_mux.sink12
+Info: Inserting clock-crossing logic between rsp_demux_012.src1 and rsp_mux_001.sink4
+Info: b_emp: Starting RTL generation for module 'nios_system_b_emp'
+Info: b_emp:   Generation command is [exec C:/altera/quartus/bin64/perl/bin/perl.exe -I C:/altera/quartus/bin64/perl/lib -I C:/altera/quartus/sopc_builder/bin/europa -I C:/altera/quartus/sopc_builder/bin/perl_lib -I C:/altera/quartus/sopc_builder/bin -I C:/altera/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_system_b_emp --dir=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0001_b_emp_gen/ --quartus_dir=C:/altera/quartus --verilog --config=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0001_b_emp_gen//nios_system_b_emp_component_configuration.pl  --do_build_sim=0  ]
+Info: b_emp: Done RTL generation for module 'nios_system_b_emp'
+Info: b_emp: "nios_system" instantiated altera_avalon_pio "b_emp"
+Info: bullet1_x: Starting RTL generation for module 'nios_system_bullet1_x'
+Info: bullet1_x:   Generation command is [exec C:/altera/quartus/bin64/perl/bin/perl.exe -I C:/altera/quartus/bin64/perl/lib -I C:/altera/quartus/sopc_builder/bin/europa -I C:/altera/quartus/sopc_builder/bin/perl_lib -I C:/altera/quartus/sopc_builder/bin -I C:/altera/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_system_bullet1_x --dir=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0002_bullet1_x_gen/ --quartus_dir=C:/altera/quartus --verilog --config=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0002_bullet1_x_gen//nios_system_bullet1_x_component_configuration.pl  --do_build_sim=0  ]
+Info: bullet1_x: Done RTL generation for module 'nios_system_bullet1_x'
+Info: bullet1_x: "nios_system" instantiated altera_avalon_pio "bullet1_x"
+Info: health: Starting RTL generation for module 'nios_system_health'
+Info: health:   Generation command is [exec C:/altera/quartus/bin64/perl/bin/perl.exe -I C:/altera/quartus/bin64/perl/lib -I C:/altera/quartus/sopc_builder/bin/europa -I C:/altera/quartus/sopc_builder/bin/perl_lib -I C:/altera/quartus/sopc_builder/bin -I C:/altera/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_system_health --dir=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0003_health_gen/ --quartus_dir=C:/altera/quartus --verilog --config=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0003_health_gen//nios_system_health_component_configuration.pl  --do_build_sim=0  ]
+Info: health: Done RTL generation for module 'nios_system_health'
+Info: health: "nios_system" instantiated altera_avalon_pio "health"
+Info: jtag_uart_0: Starting RTL generation for module 'nios_system_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/altera/quartus/bin64/perl/bin/perl.exe -I C:/altera/quartus/bin64/perl/lib -I C:/altera/quartus/sopc_builder/bin/europa -I C:/altera/quartus/sopc_builder/bin/perl_lib -I C:/altera/quartus/sopc_builder/bin -I C:/altera/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios_system_jtag_uart_0 --dir=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0004_jtag_uart_0_gen/ --quartus_dir=C:/altera/quartus --verilog --config=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0004_jtag_uart_0_gen//nios_system_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'nios_system_jtag_uart_0'
+Info: jtag_uart_0: "nios_system" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: key: Starting RTL generation for module 'nios_system_key'
+Info: key:   Generation command is [exec C:/altera/quartus/bin64/perl/bin/perl.exe -I C:/altera/quartus/bin64/perl/lib -I C:/altera/quartus/sopc_builder/bin/europa -I C:/altera/quartus/sopc_builder/bin/perl_lib -I C:/altera/quartus/sopc_builder/bin -I C:/altera/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_system_key --dir=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0005_key_gen/ --quartus_dir=C:/altera/quartus --verilog --config=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0005_key_gen//nios_system_key_component_configuration.pl  --do_build_sim=0  ]
+Info: key: Done RTL generation for module 'nios_system_key'
+Info: key: "nios_system" instantiated altera_avalon_pio "key"
+Info: keycode: Starting RTL generation for module 'nios_system_keycode'
+Info: keycode:   Generation command is [exec C:/altera/quartus/bin64/perl/bin/perl.exe -I C:/altera/quartus/bin64/perl/lib -I C:/altera/quartus/sopc_builder/bin/europa -I C:/altera/quartus/sopc_builder/bin/perl_lib -I C:/altera/quartus/sopc_builder/bin -I C:/altera/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_system_keycode --dir=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0006_keycode_gen/ --quartus_dir=C:/altera/quartus --verilog --config=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0006_keycode_gen//nios_system_keycode_component_configuration.pl  --do_build_sim=0  ]
+Info: keycode: Done RTL generation for module 'nios_system_keycode'
+Info: keycode: "nios_system" instantiated altera_avalon_pio "keycode"
+Info: nios2_qsys_0: "nios_system" instantiated altera_nios2_gen2 "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'nios_system_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/altera/quartus/bin64/perl/bin/perl.exe -I C:/altera/quartus/bin64/perl/lib -I C:/altera/quartus/sopc_builder/bin/europa -I C:/altera/quartus/sopc_builder/bin/perl_lib -I C:/altera/quartus/sopc_builder/bin -I C:/altera/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_system_onchip_memory2_0 --dir=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0007_onchip_memory2_0_gen/ --quartus_dir=C:/altera/quartus --verilog --config=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0007_onchip_memory2_0_gen//nios_system_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'nios_system_onchip_memory2_0'
+Info: onchip_memory2_0: "nios_system" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: otg_hpi_data: Starting RTL generation for module 'nios_system_otg_hpi_data'
+Info: otg_hpi_data:   Generation command is [exec C:/altera/quartus/bin64/perl/bin/perl.exe -I C:/altera/quartus/bin64/perl/lib -I C:/altera/quartus/sopc_builder/bin/europa -I C:/altera/quartus/sopc_builder/bin/perl_lib -I C:/altera/quartus/sopc_builder/bin -I C:/altera/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_system_otg_hpi_data --dir=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0008_otg_hpi_data_gen/ --quartus_dir=C:/altera/quartus --verilog --config=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0008_otg_hpi_data_gen//nios_system_otg_hpi_data_component_configuration.pl  --do_build_sim=0  ]
+Info: otg_hpi_data: Done RTL generation for module 'nios_system_otg_hpi_data'
+Info: otg_hpi_data: "nios_system" instantiated altera_avalon_pio "otg_hpi_data"
+Info: scene_sel: Starting RTL generation for module 'nios_system_scene_sel'
+Info: scene_sel:   Generation command is [exec C:/altera/quartus/bin64/perl/bin/perl.exe -I C:/altera/quartus/bin64/perl/lib -I C:/altera/quartus/sopc_builder/bin/europa -I C:/altera/quartus/sopc_builder/bin/perl_lib -I C:/altera/quartus/sopc_builder/bin -I C:/altera/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_system_scene_sel --dir=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0009_scene_sel_gen/ --quartus_dir=C:/altera/quartus --verilog --config=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0009_scene_sel_gen//nios_system_scene_sel_component_configuration.pl  --do_build_sim=0  ]
+Info: scene_sel: Done RTL generation for module 'nios_system_scene_sel'
+Info: scene_sel: "nios_system" instantiated altera_avalon_pio "scene_sel"
+Info: sdram: Starting RTL generation for module 'nios_system_sdram'
+Info: sdram:   Generation command is [exec C:/altera/quartus/bin64/perl/bin/perl.exe -I C:/altera/quartus/bin64/perl/lib -I C:/altera/quartus/sopc_builder/bin/europa -I C:/altera/quartus/sopc_builder/bin/perl_lib -I C:/altera/quartus/sopc_builder/bin -I C:/altera/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/altera/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=nios_system_sdram --dir=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0010_sdram_gen/ --quartus_dir=C:/altera/quartus --verilog --config=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0010_sdram_gen//nios_system_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'nios_system_sdram'
+Info: sdram: "nios_system" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: sdram_pll: "nios_system" instantiated altpll "sdram_pll"
+Info: sysid_qsys_0: "nios_system" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_015: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_016: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_017: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_018: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_019: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_020: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_021: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_022: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_023: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_024: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_025: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_026: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_027: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_028: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_029: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_030: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_031: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_032: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_033: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_034: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_035: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_036: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_037: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_038: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_039: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_040: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_041: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_042: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_043: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_044: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_045: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_046: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_047: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_048: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_049: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_050: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_051: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_052: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_053: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_054: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_055: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_056: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_057: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_058: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_059: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_060: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_061: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_062: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_063: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_064: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_065: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_066: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "nios_system" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "nios_system" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "nios_system" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'nios_system_nios2_qsys_0_cpu'
+Info: cpu:   Generation command is [exec C:/altera/quartus/bin64/eperlcmd.exe -I C:/altera/quartus/bin64/perl/lib -I C:/altera/quartus/sopc_builder/bin/europa -I C:/altera/quartus/sopc_builder/bin/perl_lib -I C:/altera/quartus/sopc_builder/bin -I C:/altera/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/altera/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/altera/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/altera/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/altera/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=nios_system_nios2_qsys_0_cpu --dir=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0016_cpu_gen/ --quartus_bindir=C:/altera/quartus/bin64 --verilog --config=C:/Users/Andrew/AppData/Local/Temp/alt7140_7765486037301731462.dir/0016_cpu_gen//nios_system_nios2_qsys_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2016.12.04 19:21:49 (*) Starting Nios II generation
+Info: cpu: # 2016.12.04 19:21:49 (*)   Checking for plaintext license.
+Info: cpu: # 2016.12.04 19:21:50 (*)   Couldn't query license setup in Quartus directory C:/altera/quartus/bin64
+Info: cpu: # 2016.12.04 19:21:50 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2016.12.04 19:21:50 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2016.12.04 19:21:50 (*)   Plaintext license not found.
+Info: cpu: # 2016.12.04 19:21:50 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2016.12.04 19:21:50 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2016.12.04 19:21:50 (*)   Creating all objects for CPU
+Info: cpu: # 2016.12.04 19:21:52 (*)   Generating RTL from CPU objects
+Info: cpu: # 2016.12.04 19:21:52 (*)   Creating plain-text RTL
+Info: cpu: # 2016.12.04 19:21:54 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'nios_system_nios2_qsys_0_cpu'
+Info: cpu: "nios2_qsys_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_qsys_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_qsys_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_qsys_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_qsys_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file E:/Github/ECE_385/Final_Lab/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file E:/Github/ECE_385/Final_Lab/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file E:/Github/ECE_385/Final_Lab/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: nios_system: Done "nios_system" with 38 modules, 53 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

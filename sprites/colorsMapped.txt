@@ -1,0 +1,17 @@
+black- 0:0,0,0
+brick12door royal-blue- 1:0,128,255
+brick1 dark-blue- 2:0,0,255
+brick23 outline- 3:0,255,255
+brick2 gray- 4:102,102,102
+brick3 moss- 5:0,255,0
+jet/blastergreen darkmoss- 6:128,128,0
+doorblue outsideblue- 7:0,0,128
+doorblue outsidegreen- 8:24,250,146
+white- 9:255,255,255
+bodyorange- 10:255,147,0
+feetred- 11:255,0,0
+blastertip- 12:128,255,0
+visor- 13:255,255,0
+doorredoutsidedark- 14:128,0,0
+doorredoutsidelight- 15:255,102,102
+

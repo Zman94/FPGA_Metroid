@@ -1,0 +1,82 @@
+	component nios_system is
+		port (
+			b_emp_export            : out   std_logic;                                        -- export
+			bullet1_en_export       : out   std_logic;                                        -- export
+			bullet1_x_export        : out   std_logic_vector(9 downto 0);                     -- export
+			bullet1_y_export        : out   std_logic_vector(9 downto 0);                     -- export
+			bullet2_en_export       : out   std_logic;                                        -- export
+			bullet2_x_export        : out   std_logic_vector(9 downto 0);                     -- export
+			bullet2_y_export        : out   std_logic_vector(9 downto 0);                     -- export
+			bullet3_en_export       : out   std_logic;                                        -- export
+			bullet3_x_export        : out   std_logic_vector(9 downto 0);                     -- export
+			bullet3_y_export        : out   std_logic_vector(9 downto 0);                     -- export
+			clk_clk                 : in    std_logic                     := 'X';             -- clk
+			explosion1_en_export    : out   std_logic;                                        -- export
+			explosion1_x_export     : out   std_logic_vector(9 downto 0);                     -- export
+			explosion1_y_export     : out   std_logic_vector(9 downto 0);                     -- export
+			explosion2_en_export    : out   std_logic;                                        -- export
+			explosion2_x_export     : out   std_logic_vector(9 downto 0);                     -- export
+			explosion2_y_export     : out   std_logic_vector(9 downto 0);                     -- export
+			explosion3_en_export    : out   std_logic;                                        -- export
+			explosion3_x_export     : out   std_logic_vector(9 downto 0);                     -- export
+			explosion3_y_export     : out   std_logic_vector(9 downto 0);                     -- export
+			health_export           : out   std_logic_vector(1 downto 0);                     -- export
+			key_export              : in    std_logic_vector(1 downto 0)  := (others => 'X'); -- export
+			keycode_export          : out   std_logic_vector(15 downto 0);                    -- export
+			kraid_as_dir_export     : out   std_logic;                                        -- export
+			kraid_dir_export        : out   std_logic;                                        -- export
+			kraid_g_en_export       : out   std_logic;                                        -- export
+			kraid_n_en_export       : out   std_logic;                                        -- export
+			kraid_r_en_export       : out   std_logic;                                        -- export
+			kraid_shoot_en_export   : out   std_logic;                                        -- export
+			kraid_spike_x_export    : out   std_logic_vector(9 downto 0);                     -- export
+			kraid_spike_y_export    : out   std_logic_vector(9 downto 0);                     -- export
+			kraid_throw_en_export   : out   std_logic;                                        -- export
+			kraid_throw_x_export    : out   std_logic_vector(9 downto 0);                     -- export
+			kraid_throw_y_export    : out   std_logic_vector(9 downto 0);                     -- export
+			kraid_x_export          : out   std_logic_vector(9 downto 0);                     -- export
+			kraid_y_export          : out   std_logic_vector(9 downto 0);                     -- export
+			krait_throw_2_en_export : out   std_logic;                                        -- export
+			krait_throw_2_x_export  : out   std_logic_vector(9 downto 0);                     -- export
+			krait_throw_2_y_export  : out   std_logic_vector(9 downto 0);                     -- export
+			loss_en_export          : out   std_logic;                                        -- export
+			monster1_en_export      : out   std_logic;                                        -- export
+			monster1_x_export       : out   std_logic_vector(9 downto 0);                     -- export
+			monster1_y_export       : out   std_logic_vector(9 downto 0);                     -- export
+			monster2_en_export      : out   std_logic;                                        -- export
+			monster2_x_export       : out   std_logic_vector(9 downto 0);                     -- export
+			monster2_y_export       : out   std_logic_vector(9 downto 0);                     -- export
+			monster3_dir_export     : out   std_logic;                                        -- export
+			monster3_en_export      : out   std_logic;                                        -- export
+			monster3_x_export       : out   std_logic_vector(9 downto 0);                     -- export
+			monster3_y_export       : out   std_logic_vector(9 downto 0);                     -- export
+			otg_hpi_address_export  : out   std_logic_vector(1 downto 0);                     -- export
+			otg_hpi_cs_export       : out   std_logic;                                        -- export
+			otg_hpi_data_in_port    : in    std_logic_vector(15 downto 0) := (others => 'X'); -- in_port
+			otg_hpi_data_out_port   : out   std_logic_vector(15 downto 0);                    -- out_port
+			otg_hpi_r_export        : out   std_logic;                                        -- export
+			otg_hpi_w_export        : out   std_logic;                                        -- export
+			reset_reset_n           : in    std_logic                     := 'X';             -- reset_n
+			samus_dir_export        : out   std_logic;                                        -- export
+			samus_en_export         : out   std_logic;                                        -- export
+			samus_jump_export       : out   std_logic;                                        -- export
+			samus_up_export         : out   std_logic;                                        -- export
+			samus_walk_export       : out   std_logic;                                        -- export
+			samus_x_export          : out   std_logic_vector(9 downto 0);                     -- export
+			samus_y_export          : out   std_logic_vector(9 downto 0);                     -- export
+			scene_sel_export        : out   std_logic_vector(2 downto 0);                     -- export
+			sdram_clk_clk           : out   std_logic;                                        -- clk
+			sdram_wire_addr         : out   std_logic_vector(12 downto 0);                    -- addr
+			sdram_wire_ba           : out   std_logic_vector(1 downto 0);                     -- ba
+			sdram_wire_cas_n        : out   std_logic;                                        -- cas_n
+			sdram_wire_cke          : out   std_logic;                                        -- cke
+			sdram_wire_cs_n         : out   std_logic;                                        -- cs_n
+			sdram_wire_dq           : inout std_logic_vector(31 downto 0) := (others => 'X'); -- dq
+			sdram_wire_dqm          : out   std_logic_vector(3 downto 0);                     -- dqm
+			sdram_wire_ras_n        : out   std_logic;                                        -- ras_n
+			sdram_wire_we_n         : out   std_logic;                                        -- we_n
+			title_en_export         : out   std_logic;                                        -- export
+			win_en_export           : out   std_logic                                         -- export
+		);
+	end component nios_system;
+

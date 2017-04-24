@@ -1,0 +1,97 @@
+//--------------------------------------------------------------------------------------------
+// Sprite Mapper:
+//
+//		The sprite mapper is a glorified color mapper and it will draw the sprites with the 
+//		top left corner at the (x,y) coordinate. The background moves based on the position of
+//		samus. (She is in the middle on the screen)
+//
+//--------------------------------------------------------------------------------------------
+module sprite_mapper(
+
+
+
+
+);
+
+endmodule
+
+
+//--------------------------------------------------------------------------------------------
+// Samus:
+//
+//		If the vga pixel pointer is within the samus sprite, return a proper color:
+//		Priority 1
+//
+//--------------------------------------------------------------------------------------------
+module samus(
+	output logic[5:0] 
+
+);
+
+// Samus Sprites:
+
+	
+// Samus Combinational Logic:
+
+
+endmodule
+
+
+//--------------------------------------------------------------------------------------------
+// Monster:
+//
+//		If the vga pixel pointer is within the monster(s), return a proper color:
+//		Priority 2
+//		
+//--------------------------------------------------------------------------------------------
+module monster(
+
+
+);
+
+endmodule
+
+
+//--------------------------------------------------------------------------------------------
+// PowerUp:
+//
+//		If the vga pixel pointer is within the powerUp, return a proper color:
+//		Priority 3
+//		
+//--------------------------------------------------------------------------------------------
+module power_up(
+
+
+);
+
+endmodule
+
+
+//--------------------------------------------------------------------------------------------
+// Bullet:
+//
+//		If the vga pixel pointer is within the bullet(s), return a proper color:
+//		Priority 4
+//		
+//--------------------------------------------------------------------------------------------
+module bullet(
+
+
+);
+
+endmodule
+
+
+//--------------------------------------------------------------------------------------------
+// Background:
+//
+//		If the vga pixel pointer is within the bullet(s), return a proper color:
+//		Priority 5
+//		
+//--------------------------------------------------------------------------------------------
+module background(
+
+
+);
+
+endmodule

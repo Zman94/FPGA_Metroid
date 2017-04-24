@@ -1,0 +1,127 @@
+# Reading C:/Altera/modelsim_ase/tcl/vsim/pref.tcl
+# do lab8_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/Altera/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/Altera/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+E:/School/University\ of\ Illinois/ECE\ 385/ECE_385/Final_Lab {E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/lab8.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:27:40 on Nov 13,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab" E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/lab8.sv 
+# -- Compiling module lab8
+# 
+# Top level modules:
+# 	lab8
+# End time: 19:27:40 on Nov 13,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/School/University\ of\ Illinois/ECE\ 385/ECE_385/Final_Lab {E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:27:40 on Nov 13,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab" E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 19:27:40 on Nov 13,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib nios_system
+# ** Warning: (vlib-34) Library already exists at "nios_system".
+# 
+# vmap nios_system nios_system
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet nios_system nios_system 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+E:/School/University\ of\ Illinois/ECE\ 385/ECE_385/Final_Lab {E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/Test_Bench.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 19:27:40 on Nov 13,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab" E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/Test_Bench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 19:27:40 on Nov 13,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L nios_system -voptargs="+acc"  testbench
+# vsim -gui "+altera" -l msim_transcript -do "lab8_run_msim_rtl_systemverilog.do" 
+# Start time: 19:27:40 on Nov 13,2016
+# Loading sv_std.std
+# Loading work.testbench
+# ** Error: (vsim-3033) E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/Test_Bench.sv(34): Instantiation of 'vga_controller' failed. The design unit was not found.
+# 
+#         Region: /testbench
+#         Searched libraries:
+#             C:/Altera/modelsim_ase/altera/verilog/altera
+#             C:/Altera/modelsim_ase/altera/verilog/220model
+#             C:/Altera/modelsim_ase/altera/verilog/sgate
+#             C:/Altera/modelsim_ase/altera/verilog/altera_mf
+#             C:/Altera/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/Altera/modelsim_ase/altera/verilog/cycloneive
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/rtl_work
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/rtl_work
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/nios_system
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/rtl_work
+# ** Error: (vsim-3033) E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/Test_Bench.sv(44): Instantiation of 'drawer' failed. The design unit was not found.
+# 
+#         Region: /testbench
+#         Searched libraries:
+#             C:/Altera/modelsim_ase/altera/verilog/altera
+#             C:/Altera/modelsim_ase/altera/verilog/220model
+#             C:/Altera/modelsim_ase/altera/verilog/sgate
+#             C:/Altera/modelsim_ase/altera/verilog/altera_mf
+#             C:/Altera/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/Altera/modelsim_ase/altera/verilog/cycloneive
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/rtl_work
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/rtl_work
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/nios_system
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/rtl_work
+# ** Error: (vsim-3033) E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/Test_Bench.sv(64): Instantiation of 'test_memory' failed. The design unit was not found.
+# 
+#         Region: /testbench
+#         Searched libraries:
+#             C:/Altera/modelsim_ase/altera/verilog/altera
+#             C:/Altera/modelsim_ase/altera/verilog/220model
+#             C:/Altera/modelsim_ase/altera/verilog/sgate
+#             C:/Altera/modelsim_ase/altera/verilog/altera_mf
+#             C:/Altera/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/Altera/modelsim_ase/altera/verilog/cycloneive
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/rtl_work
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/rtl_work
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/nios_system
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./lab8_run_msim_rtl_systemverilog.do PAUSED at line 15
+vsim work.testbench
+# Loading sv_std.std
+# Loading work.testbench
+# ** Error: (vsim-3033) E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/Test_Bench.sv(34): Instantiation of 'vga_controller' failed. The design unit was not found.
+# 
+#         Region: /testbench
+#         Searched libraries:
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/rtl_work
+# ** Error: (vsim-3033) E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/Test_Bench.sv(44): Instantiation of 'drawer' failed. The design unit was not found.
+# 
+#         Region: /testbench
+#         Searched libraries:
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/rtl_work
+# ** Error: (vsim-3033) E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/Test_Bench.sv(64): Instantiation of 'test_memory' failed. The design unit was not found.
+# 
+#         Region: /testbench
+#         Searched libraries:
+#             E:/School/University of Illinois/ECE 385/ECE_385/Final_Lab/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./lab8_run_msim_rtl_systemverilog.do PAUSED at line 15
+# A time value could not be extracted from the current line
